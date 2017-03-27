@@ -1,4 +1,4 @@
-FROM dit4c/dit4c-container-ipython:latest
+FROM dit4c/dit4c-container-jupyter:latest
 MAINTAINER Tim Dettrick <t.dettrick@uq.edu.au>
 
 RUN pip3 install --upgrade jupyterlab && su - researcher -c \
